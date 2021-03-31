@@ -2,23 +2,27 @@ PODS:
   - Alamofire (5.2.2)
   - ESPullToRefresh (2.9.3)
   - PKHUD (5.3.0)
+  - Repeat (0.6.0)
 
 DEPENDENCIES:
   - Alamofire
   - ESPullToRefresh
   - PKHUD
+  - Repeat
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - ESPullToRefresh
     - PKHUD
+    - Repeat
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
   ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
   PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  Repeat: fd80848f4b3d6f133b18fdee04fd193aff6b31ff
 
-PODFILE CHECKSUM: 74598eb1093f1d2571fbf6e702ad61d32f878d94
+PODFILE CHECKSUM: 30974bce5611c9267dda5bd562b47fe6ed8d8b07
 
 COCOAPODS: 1.10.1

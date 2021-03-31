@@ -9,6 +9,7 @@ target 'github-api-test' do
   pod 'Alamofire'
   pod 'PKHUD'
   pod 'ESPullToRefresh'
+  pod 'Repeat'
 
   target 'github-api-testTests' do
     inherit! :search_paths
