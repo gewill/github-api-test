@@ -10,6 +10,8 @@ target 'github-api-test' do
   pod 'PKHUD'
   pod 'ESPullToRefresh'
   pod 'Repeat'
+  pod 'Realm'
+  pod 'RealmSwift'
 
   target 'github-api-testTests' do
     inherit! :search_paths

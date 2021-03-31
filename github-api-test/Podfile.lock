@@ -2,12 +2,19 @@ PODS:
   - Alamofire (5.2.2)
   - ESPullToRefresh (2.9.3)
   - PKHUD (5.3.0)
+  - Realm (5.4.7):
+    - Realm/Headers (= 5.4.7)
+  - Realm/Headers (5.4.7)
+  - RealmSwift (5.4.7):
+    - Realm (= 5.4.7)
   - Repeat (0.6.0)
 
 DEPENDENCIES:
   - Alamofire
   - ESPullToRefresh
   - PKHUD
+  - Realm
+  - RealmSwift
   - Repeat
 
 SPEC REPOS:
@@ -15,14 +22,18 @@ SPEC REPOS:
     - Alamofire
     - ESPullToRefresh
     - PKHUD
+    - Realm
+    - RealmSwift
     - Repeat
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
   ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
   PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  Realm: 4bfc08e376b2e30c84ec3200ebe715574da05cc0
+  RealmSwift: ed40f371b62e8677141939e05b44a0c1a0a2d965
   Repeat: fd80848f4b3d6f133b18fdee04fd193aff6b31ff
 
-PODFILE CHECKSUM: 30974bce5611c9267dda5bd562b47fe6ed8d8b07
+PODFILE CHECKSUM: 8bf7498de44c337dd4ffe1c1c39d59f177cece1c
 
 COCOAPODS: 1.10.1

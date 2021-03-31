@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,12 +12,15 @@
 		9EBC165C4EFBAD8C37186834 /* Pods_github_api_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C732B0F4891828F8F041272C /* Pods_github_api_testTests.framework */; };
 		BEBE9E282614A654006755DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE9E272614A654006755DF /* AppDelegate.swift */; };
 		BEBE9E2A2614A654006755DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE9E292614A654006755DF /* SceneDelegate.swift */; };
-		BEBE9E2C2614A654006755DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE9E2B2614A654006755DF /* ViewController.swift */; };
+		BEBE9E2C2614A654006755DF /* RequestGithubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE9E2B2614A654006755DF /* RequestGithubVC.swift */; };
 		BEBE9E2F2614A654006755DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE9E2D2614A654006755DF /* Main.storyboard */; };
 		BEBE9E312614A654006755DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBE9E302614A654006755DF /* Assets.xcassets */; };
 		BEBE9E342614A654006755DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBE9E322614A654006755DF /* LaunchScreen.storyboard */; };
 		BEBE9E3F2614A654006755DF /* github_api_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE9E3E2614A654006755DF /* github_api_testTests.swift */; };
 		BEBE9E4A2614A654006755DF /* github_api_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE9E492614A654006755DF /* github_api_testUITests.swift */; };
+		BEBE9E7F2614AB4C006755DF /* RequestGithubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE9E7E2614AB4C006755DF /* RequestGithubViewModel.swift */; };
+		BEBE9E932614B078006755DF /* GithubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE9E922614B078006755DF /* GithubModel.swift */; };
+		BEBE9E982614B08D006755DF /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBE9E972614B08D006755DF /* RealmProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +52,7 @@
 		BEBE9E242614A654006755DF /* github-api-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "github-api-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBE9E272614A654006755DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEBE9E292614A654006755DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEBE9E2B2614A654006755DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEBE9E2B2614A654006755DF /* RequestGithubVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestGithubVC.swift; sourceTree = "<group>"; };
 		BEBE9E2E2614A654006755DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEBE9E302614A654006755DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBE9E332614A654006755DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +63,9 @@
 		BEBE9E452614A654006755DF /* github-api-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "github-api-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBE9E492614A654006755DF /* github_api_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_api_testUITests.swift; sourceTree = "<group>"; };
 		BEBE9E4B2614A654006755DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBE9E7E2614AB4C006755DF /* RequestGithubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestGithubViewModel.swift; sourceTree = "<group>"; };
+		BEBE9E922614B078006755DF /* GithubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubModel.swift; sourceTree = "<group>"; };
+		BEBE9E972614B08D006755DF /* RealmProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
 		C732B0F4891828F8F041272C /* Pods_github_api_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_github_api_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,7 +117,6 @@
 				BB12E97BD7A0A4FC1FEC41E6 /* Pods-github-api-testTests.debug.xcconfig */,
 				736B39EB9E6561733202B621 /* Pods-github-api-testTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,8 +147,9 @@
 			children = (
 				BEBE9E272614A654006755DF /* AppDelegate.swift */,
 				BEBE9E292614A654006755DF /* SceneDelegate.swift */,
-				BEBE9E2B2614A654006755DF /* ViewController.swift */,
 				BEBE9E2D2614A654006755DF /* Main.storyboard */,
+				BEBE9E7D2614AB3A006755DF /* RequestGithub */,
+				BEBE9E912614B065006755DF /* DB */,
 				BEBE9E302614A654006755DF /* Assets.xcassets */,
 				BEBE9E322614A654006755DF /* LaunchScreen.storyboard */,
 				BEBE9E352614A654006755DF /* Info.plist */,
@@ -167,6 +173,24 @@
 				BEBE9E4B2614A654006755DF /* Info.plist */,
 			);
 			path = "github-api-testUITests";
+			sourceTree = "<group>";
+		};
+		BEBE9E7D2614AB3A006755DF /* RequestGithub */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE9E2B2614A654006755DF /* RequestGithubVC.swift */,
+				BEBE9E7E2614AB4C006755DF /* RequestGithubViewModel.swift */,
+			);
+			path = RequestGithub;
+			sourceTree = "<group>";
+		};
+		BEBE9E912614B065006755DF /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				BEBE9E972614B08D006755DF /* RealmProvider.swift */,
+				BEBE9E922614B078006755DF /* GithubModel.swift */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,9 +431,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEBE9E2C2614A654006755DF /* ViewController.swift in Sources */,
+				BEBE9E2C2614A654006755DF /* RequestGithubVC.swift in Sources */,
 				BEBE9E282614A654006755DF /* AppDelegate.swift in Sources */,
+				BEBE9E982614B08D006755DF /* RealmProvider.swift in Sources */,
 				BEBE9E2A2614A654006755DF /* SceneDelegate.swift in Sources */,
+				BEBE9E7F2614AB4C006755DF /* RequestGithubViewModel.swift in Sources */,
+				BEBE9E932614B078006755DF /* GithubModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
